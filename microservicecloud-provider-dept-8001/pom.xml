@@ -69,6 +69,12 @@
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
         <!-- 将微服务provider侧注册进eureka -->
+        <!--超链接点击服务报告ErrorPage-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!--超链接点击服务报告ErrorPage-->
     </dependencies>
 
 
