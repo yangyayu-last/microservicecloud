@@ -33,5 +33,5 @@ eureka:
 info:
   app.name: yang-microservicecloud
   company.name: www.yang.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
